@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Reproduzir música de fundo
-    const audio = new Audio("clair-de-lune.mp3");
+    const audio = new Audio("./Audio/clair-de-lune.mp3");
     const playButton = document.createElement("button");
     audio.volume = 1.0;
     playButton.innerText = "🎵 Reproduzir Música";
